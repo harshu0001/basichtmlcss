@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display:flex;
+    background-color: #F6F1F1;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.container{
+    display:flex;
+    background-color: #ffff;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+     font-size: 16px;
+}
+a{
+    text-decoration: none;
+    margin: 3px 5px;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    margin:0;
+    padding: 0;
+    height: 100px;  
+}
+.icons > img{
+    margin: 0px;
+    padding: 0;
+    height: 10px;
+    width: 10px;
+}
+.element > img {
+
+    width: 100%;
+    height: 700px;
+}
+.footer1{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.images > center > img{
+    height: 60px;
+    width: 60px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.policies{
+    margin:0;
+}
+.policies>p{
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.policies> ul{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    list-style: none;
+    
+}
+.aboutus>p>.A{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.newsletter{
+    margin: 0;
+}
+.newsletter>p{
+    font-size: 30px;
+    font-weight: Bold;
+}
+.newsletter>form>input{
+    height: 30px;
+    width: 250px;
+}
+@media (max-width: 1250px)
+{
+    .container{
+        display:none;
+    }
+    .footer1{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .element > img {
+
+        width: 100%;
+        height: 70vh;
+        flex-grow:1;
+    }
+    .footer{
+        margin:0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 70vhpx;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+    }
+    .policies>p{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .policies> ul{
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        list-style: none;
+        
+    }
+    .aboutus>p>span{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .newsletter>p{
+        font-size: 2rem;
+        font-weight: Bold;
+    }
+    .newsletter>form>input{
+        height: 30px;
+        width: 40vh;
+    }
+
+}
